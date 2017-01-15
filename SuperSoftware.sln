@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperSoftware.Utility", "SuperSoftware.Utility\SuperSoftware.Utility.csproj", "{E449D27F-4793-477A-912D-F7D60762DD83}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Document", "Document", "{8EF0E7C2-0DD1-4B47-B3F6-E0F3A7EDD250}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperSoftware.Shell", "SuperSoftware.Shell\SuperSoftware.Shell.csproj", "{A771478B-0C6C-4648-9758-47347106659B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E449D27F-4793-477A-912D-F7D60762DD83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E449D27F-4793-477A-912D-F7D60762DD83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E449D27F-4793-477A-912D-F7D60762DD83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E449D27F-4793-477A-912D-F7D60762DD83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A771478B-0C6C-4648-9758-47347106659B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A771478B-0C6C-4648-9758-47347106659B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A771478B-0C6C-4648-9758-47347106659B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A771478B-0C6C-4648-9758-47347106659B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
