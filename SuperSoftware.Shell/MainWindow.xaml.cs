@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using SuperSoftware.Utility;
 
 namespace SuperSoftware.Shell
 {
@@ -23,6 +24,34 @@ namespace SuperSoftware.Shell
         public MainWindow()
         {
             InitializeComponent();
+            test();
+        }
+
+        public void test()
+        {
+            try
+            {
+                LogHelper.Trace("跟踪");
+                LogHelper.Debug("调试");
+                LogHelper.Error("错误");
+                LogHelper.Info("信息");
+                LogHelper.Fatal("严重");
+                LogHelper.Warn("警告");
+
+                string tmp = "2a";
+                int a = int.Parse(tmp);
+            }
+            catch (Exception ex)
+            {
+                LogHelper.Trace("跟踪", ex);
+                LogHelper.Debug("调试", ex);
+                LogHelper.Error("core 类发生错误", ex);
+                LogHelper.Info("信息", ex);
+                LogHelper.Fatal("严重", ex);
+                LogHelper.Warn("警告", ex);
+                //throw;
+            }
+
         }
     }
 }

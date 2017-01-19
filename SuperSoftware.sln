@@ -7,7 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperSoftware.Utility", "Su
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Document", "Document", "{8EF0E7C2-0DD1-4B47-B3F6-E0F3A7EDD250}"
 	ProjectSection(SolutionItems) = preProject
-		ReadMe.txt = ReadMe.txt
+		Document\ReadMe.txt = Document\ReadMe.txt
+		Document\框架使用说明.xlsx = Document\框架使用说明.xlsx
+		Document\界面设计规范.xlsx = Document\界面设计规范.xlsx
+		Document\编码规范.docx = Document\编码规范.docx
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperSoftware.Shell", "SuperSoftware.Shell\SuperSoftware.Shell.csproj", "{A771478B-0C6C-4648-9758-47347106659B}"
